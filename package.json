@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/mast4461/express-mongo-node-demo/issues"
   },
-  "homepage": "https://github.com/mast4461/express-mongo-node-demo#readme"
+  "homepage": "https://github.com/mast4461/express-mongo-node-demo#readme",
+  "dependencies": {
+    "express": "^4.15.0"
+  }
 }
