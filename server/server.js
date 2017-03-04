@@ -7,5 +7,5 @@ app.listen(settings.port, function() {
 });
 
 app.get("/", function (req, res) {
-    res.send("<h1>Hello world</h1><h2>Second line!</h2>");
+    res.sendfile("frontend/index.html");
 });
