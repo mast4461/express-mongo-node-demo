@@ -4,7 +4,8 @@
   "description": "Demo app for Express, MongoDB and Node",
   "main": "server/server.js",
   "scripts": {
-    "test": "test"
+    "test": "echo 'test'",
+    "start": "node server/server.js"
   },
   "repository": {
     "type": "git",
