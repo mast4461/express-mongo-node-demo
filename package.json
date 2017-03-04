@@ -5,7 +5,8 @@
   "main": "server/server.js",
   "scripts": {
     "test": "echo 'test'",
-    "start": "node server/server.js"
+    "start": "node server/server.js",
+    "devstart": "nodemon server/server.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,8 @@
   "homepage": "https://github.com/mast4461/express-mongo-node-demo#readme",
   "dependencies": {
     "express": "^4.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
   }
 }
