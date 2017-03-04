@@ -1,3 +1,4 @@
+
 const express = require('express');
 const settings = require('./settings.json');
 const bodyParser = require("body-parser");
@@ -26,5 +27,12 @@ app.get("/", function (req, res) {
 });
 
 app.post("/quotes", function (req, res) {
-    console.log(req.body);
+	db.collection("qoutes").save(req.body, function (err, result) {
+		if (err) {
+			console.log("Database error occured", err);
+			return;
+		}
+		console.log("Saved to database")
+		res.redirect("/");
+	});
 });
