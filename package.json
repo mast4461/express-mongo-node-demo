@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/mast4461/express-mongo-node-demo#readme",
   "dependencies": {
+    "body-parser": "^1.17.0",
     "express": "^4.15.0"
   },
   "devDependencies": {
