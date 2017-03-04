@@ -1,10 +1,16 @@
 module.exports = {
-    "extends": "airbnb-base",
-    "plugins": [
-        "import"
-    ],
+	"extends": "airbnb-base",
+	"env": {
+		"node": true,
+	},
 
-    "rules": {
-      "quotes": [2, "double"],
-    },
+	"plugins": [
+		"import"
+	],
+
+	"rules": {
+		"quotes": ["error", "double"],
+		"indent": ["error", "tab"],
+		"no-tabs": ["off"],
+	},
 };
